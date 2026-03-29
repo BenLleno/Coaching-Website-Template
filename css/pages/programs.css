@@ -277,3 +277,18 @@
 @media (min-width: 1200px) {
   .programs-grid { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Mobile Optimizations */
+@media (max-width: 740px) {
+  .program-card-body {
+    padding: var(--space-lg);
+  }
+
+  .modal-program-body {
+    gap: var(--space-lg);
+  }
+
+  .modal-program-content {
+    padding: var(--space-lg);
+  }
+}

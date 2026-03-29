@@ -243,6 +243,23 @@
   .testimonials-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
+/* Mobile Optimizations */
+@media (max-width: 740px) {
+  .testimonials-stats-inner {
+    gap: var(--space-xl);
+  }
+
+  .featured-t-inner {
+    gap: var(--space-xl);
+  }
+
+  .result-badge {
+    left: var(--space-md);
+    right: var(--space-md);
+    padding: var(--space-md);
+  }
+}
+
 /* Carousel */
 .carousel-controls {
   display: flex;

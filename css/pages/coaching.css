@@ -264,3 +264,18 @@ details[open] .faq-icon {
   .coaching-sidebar { order: 2; }
   .coaching-form-main { order: 1; }
 }
+
+/* Mobile Optimizations */
+@media (max-width: 740px) {
+  .step-card {
+    padding: var(--space-lg);
+  }
+
+  .form-card {
+    padding: var(--space-lg);
+  }
+
+  .sidebar-card {
+    padding: var(--space-lg);
+  }
+}

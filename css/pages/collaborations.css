@@ -87,6 +87,21 @@
   .value-prop-grid { grid-template-columns: 1fr 1.2fr; }
 }
 
+/* Mobile Optimizations */
+@media (max-width: 740px) {
+  .value-prop-grid {
+    gap: var(--space-2xl);
+  }
+
+  .collab-card {
+    padding: var(--space-lg);
+  }
+
+  .platform-item {
+    padding: var(--space-md);
+  }
+}
+
 /* Collab Types */
 .collab-types {
   background: var(--color-bg-primary);

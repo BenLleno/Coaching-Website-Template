@@ -426,3 +426,57 @@
   flex-wrap: wrap;
   gap: var(--space-md);
 }
+
+/* Mobile Optimizations */
+@media (max-width: 740px) {
+  .hero {
+    min-height: auto;
+    padding: calc(var(--nav-height) + var(--space-2xl)) 0 var(--space-2xl);
+  }
+
+  .hero-eyebrow {
+    margin-bottom: var(--space-lg);
+  }
+
+  .hero-title {
+    margin-bottom: var(--space-lg);
+  }
+
+  .hero-subtitle {
+    margin-bottom: var(--space-xl);
+  }
+
+  .hero-actions {
+    margin-bottom: var(--space-2xl);
+  }
+
+  .hero-creds {
+    gap: var(--space-md);
+    padding-top: var(--space-xl);
+  }
+
+  .hero-cred-item {
+    font-size: 0.75rem;
+  }
+
+  .about-grid {
+    gap: var(--space-2xl);
+  }
+
+  .credentials-list {
+    padding: var(--space-lg);
+  }
+
+  .program-card-mini {
+    padding: var(--space-lg);
+  }
+
+  .testimonial-quote {
+    padding-left: var(--space-lg);
+    border-left-width: 2px;
+  }
+
+  .testimonial-author {
+    padding-left: calc(var(--space-lg) + 2px);
+  }
+}

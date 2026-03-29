@@ -417,4 +417,25 @@
   .events-table-row { grid-template-columns: 1fr 2fr; }
   .events-table-row .location,
   .events-table-row > :last-child { display: none; }
+
+  .achievement-stat {
+    padding: var(--space-lg) var(--space-md);
+  }
+
+  .timeline {
+    padding-left: 32px;
+  }
+
+  .timeline-year {
+    font-size: 2rem;
+    margin-left: -20px;
+  }
+
+  .timeline-item {
+    padding-left: var(--space-md);
+  }
+
+  .timeline-dot {
+    left: -20px;
+  }
 }

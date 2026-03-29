@@ -441,3 +441,18 @@ select.form-control {
   height: 36px;
   color: var(--color-success);
 }
+
+/* Mobile Optimizations */
+@media (max-width: 740px) {
+  .page-hero {
+    padding: calc(var(--nav-height) + var(--space-xl)) 0 var(--space-xl);
+  }
+
+  .modal-overlay {
+    padding: var(--space-lg);
+  }
+
+  .modal-content {
+    padding: var(--space-xl);
+  }
+}
