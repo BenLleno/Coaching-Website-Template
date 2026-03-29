@@ -1,0 +1,77 @@
+/* Design Tokens — Jeff Nippard inspired */
+:root {
+  /* Colors */
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F5F5F5;
+  --color-bg-tertiary: #EBEBEB;
+  --color-accent: #4E5948;
+  --color-accent-hover: #3a4336;
+  --color-accent-light: #f0f2ef;
+  --color-text-primary: #252525;
+  --color-text-secondary: #5A5A5A;
+  --color-text-muted: #929292;
+  --color-text-inverse: #FFFFFF;
+  --color-border: #DEDEDE;
+  --color-border-dark: #929292;
+  --color-success: #2E9E7B;
+  --color-error: #A1111B;
+  --color-star: #F6A429;
+  --color-overlay: rgba(37, 37, 37, 0.85);
+
+  /* Typography */
+  --font-display: 'Roboto Condensed', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+
+  --text-hero: clamp(2.75rem, 6vw, 4.5rem);
+  --text-h1: clamp(2rem, 4vw, 3.5rem);
+  --text-h2: clamp(1.75rem, 3vw, 3.125rem);
+  --text-h3: clamp(1.25rem, 2vw, 1.875rem);
+  --text-body-lg: 1.125rem;
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --text-label: 0.75rem;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 2.5rem;
+  --space-3xl: 3rem;
+  --space-4xl: 5rem;
+
+  /* Border Radius */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 4px;
+  --radius-xl: 6px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 500ms ease;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 2px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 4px 24px rgba(0, 0, 0, 0.12);
+  --shadow-card: 0 2px 8px rgba(0,0,0,0.06);
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-padding: clamp(1rem, 4vw, 2.5rem);
+  --nav-height: 68px;
+
+  /* Section spacing */
+  --section-gap: 5rem;
+  --section-gap-sm: 3rem;
+}
+
+@media (max-width: 740px) {
+  :root {
+    --section-gap: 3rem;
+    --section-gap-sm: 2rem;
+  }
+}

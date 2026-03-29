@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/coaching", "dest": "/coaching.html" },
+    { "src": "/programs", "dest": "/programs.html" },
+    { "src": "/testimonials", "dest": "/testimonials.html" },
+    { "src": "/competition", "dest": "/competition.html" },
+    { "src": "/collaborations", "dest": "/collaborations.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}

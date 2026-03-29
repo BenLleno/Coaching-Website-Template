@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elite fitness coaching — personalized training programs, competition prep, and nutrition strategies to help you reach your peak performance.">
+  <title>Alex Carter | Elite Fitness Coach</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/pages/home.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="/" class="nav-logo" aria-label="Alex Carter — home">
+        <div class="nav-logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round">
+            <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
+            <line x1="4" y1="22" x2="4" y2="15"/>
+          </svg>
+        </div>
+        <span class="nav-logo-text">AC<span>.</span>Fit</span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/programs">Programs</a></li>
+        <li><a href="/coaching">Coaching</a></li>
+        <li><a href="/testimonials">Testimonials</a></li>
+        <li><a href="/competition">Portfolio</a></li>
+        <li><a href="/collaborations">Collabs</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="/coaching" class="btn btn-primary">Work With Me</a>
+      </div>
+
+      <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-drawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="nav-drawer" id="nav-drawer" role="navigation" aria-label="Mobile navigation">
+    <div class="nav-drawer-inner">
+      <a href="/" class="active">Home</a>
+      <a href="/programs">Programs</a>
+      <a href="/coaching">Coaching</a>
+      <a href="/testimonials">Testimonials</a>
+      <a href="/competition">Portfolio</a>
+      <a href="/collaborations">Collaborations</a>
+      <a href="/coaching" class="btn btn-primary">Work With Me</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero-bg-pattern" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-eyebrow">Elite Performance Coaching</div>
+          <h1 class="hero-title">
+            Train Hard.
+            <span class="accent">Compete.</span>
+            Dominate.
+          </h1>
+          <p class="hero-subtitle">
+            Personalized coaching programs built for serious athletes and everyday warriors who refuse to settle for average.
+          </p>
+          <div class="hero-actions">
+            <a href="/coaching" class="btn btn-primary">Start Your Journey</a>
+            <a href="/programs" class="btn btn-outline-white">View Programs</a>
+          </div>
+          <div class="hero-creds">
+            <span class="hero-cred-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              NASM Certified
+            </span>
+            <span class="hero-cred-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              12+ Years Experience
+            </span>
+            <span class="hero-cred-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              200+ Clients Transformed
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar" aria-label="Statistics">
+      <div class="container">
+        <div class="stats-bar-inner">
+          <div class="stat-item">
+            <div class="stat-number">
+              <span class="counter-value">200</span>
+              <span class="stat-suffix">+</span>
+            </div>
+            <div class="stat-label">Clients Coached</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">
+              <span class="counter-value">38</span>
+            </div>
+            <div class="stat-label">Competition Wins</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">
+              <span class="counter-value">12</span>
+              <span class="stat-suffix">+</span>
+            </div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">
+              <span class="counter-value">96</span>
+              <span class="stat-suffix">%</span>
+            </div>
+            <div class="stat-label">Client Goal Rate</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Teaser -->
+    <section class="about-teaser section" aria-label="About">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-wrapper reveal-left">
+            <div class="about-image">
+              <div class="about-image-placeholder" aria-label="Coach portrait">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                  <circle cx="12" cy="7" r="4"/>
+                </svg>
+                Coach Portrait
+              </div>
+            </div>
+            <div class="about-image-label">Alex Carter</div>
+          </div>
+
+          <div class="about-content reveal-right">
+            <span class="about-eyebrow">About the Coach</span>
+            <h2>Built From the Ground Up. Forged in Competition.</h2>
+            <p>
+              I'm Alex Carter — professional athlete, coach, and the person who's been where you are right now. With over 12 years of competing at the elite level and coaching hundreds of athletes, I know what it takes to unlock your true potential.
+            </p>
+            <p style="margin-top: 1rem;">
+              My approach combines evidence-based training science with real-world competition experience. No cookie-cutter plans — only programs engineered specifically for you.
+            </p>
+            <ul class="credentials-list" style="margin-top: 1.5rem;">
+              <li class="credential-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                NASM Certified Personal Trainer (CPT)
+              </li>
+              <li class="credential-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Precision Nutrition Level 2 Coach
+              </li>
+              <li class="credential-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                USA Weightlifting Sports Performance Coach
+              </li>
+              <li class="credential-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                CrossFit Level 2 Trainer
+              </li>
+            </ul>
+            <a href="/coaching" class="btn btn-primary" style="margin-top: 2rem;">Work With Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Program Highlights -->
+    <section class="program-highlights section" aria-label="Program highlights">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="eyebrow">Training Programs</span>
+          <h2>Choose Your Path</h2>
+          <p>From fat loss to podium prep — every program is built with precision and purpose.</p>
+        </div>
+        <div class="grid-3">
+          <article class="program-card-mini reveal" data-delay="0">
+            <div class="program-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M6.5 6.5h11M6.5 17.5h11M4 10h16M4 14h16M3 10v4M21 10v4"/></svg>
+            </div>
+            <span class="badge badge-strength">Strength</span>
+            <h3>Power Builder</h3>
+            <p>A 12-week progressive overload system designed to add serious strength and muscle mass.</p>
+            <div class="program-card-meta">
+              <span class="program-card-price">From $199<span style="font-size: 0.8rem; font-weight: 400; color: var(--color-text-secondary)">/mo</span></span>
+              <a href="/programs" class="program-card-link">
+                Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="program-card-mini reveal" data-delay="100">
+            <div class="program-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <span class="badge badge-conditioning">Conditioning</span>
+            <h3>Elite Conditioning</h3>
+            <p>8 weeks of high-intensity metabolic training to shred fat while preserving hard-earned muscle.</p>
+            <div class="program-card-meta">
+              <span class="program-card-price">From $179<span style="font-size: 0.8rem; font-weight: 400; color: var(--color-text-secondary)">/mo</span></span>
+              <a href="/programs" class="program-card-link">
+                Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="program-card-mini reveal" data-delay="200">
+            <div class="program-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/></svg>
+            </div>
+            <span class="badge badge-accent">Competition Prep</span>
+            <h3>Podium Ready</h3>
+            <p>16-week competition prep protocol. Peak week planning, posing/strategy, and full nutrition management.</p>
+            <div class="program-card-meta">
+              <span class="program-card-price">From $349<span style="font-size: 0.8rem; font-weight: 400; color: var(--color-text-secondary)">/mo</span></span>
+              <a href="/programs" class="program-card-link">
+                Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="/programs" class="btn btn-outline">View All Programs</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Teaser -->
+    <section class="testimonial-teaser section" aria-label="Featured testimonial">
+      <div class="container">
+        <div class="testimonial-teaser-inner reveal">
+          <div class="stars" aria-label="5 out of 5 stars" style="justify-content: center; margin-bottom: 1.5rem;">
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <blockquote class="testimonial-quote">
+            "Working with Alex was the best decision of my athletic career. I went from struggling to finish workouts to winning my first national title in 14 months."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">JM</div>
+            <div class="testimonial-author-info">
+              <div class="testimonial-author-name">Jordan Mitchell</div>
+              <div class="testimonial-author-detail">National Champion · Podium Ready Program</div>
+            </div>
+          </div>
+          <div style="margin-top: 2rem;">
+            <a href="/testimonials" class="btn btn-outline">Read All Stories</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner section-sm" aria-label="Call to action">
+      <div class="container">
+        <div class="cta-banner-inner">
+          <span class="eyebrow">Ready to Start?</span>
+          <h2>Your Best Shape Starts Today</h2>
+          <p>Limited coaching spots available. Don't wait — apply now and take the first step.</p>
+          <div class="cta-banner-actions">
+            <a href="/coaching" class="btn btn-primary">Apply for Coaching</a>
+            <a href="/competition" class="btn btn-outline-white">View My Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="nav-logo" aria-label="AC.Fit home">
+            <div class="nav-logo-mark">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round">
+                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
+                <line x1="4" y1="22" x2="4" y2="15"/>
+              </svg>
+            </div>
+            <span class="nav-logo-text">AC<span>.</span>Fit</span>
+          </a>
+          <p>Helping athletes and fitness enthusiasts unlock their potential through science-based training, precision nutrition, and unwavering commitment.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-2C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 2A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-2A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/programs">Training Programs</a></li>
+            <li><a href="/coaching">Coaching Inquiry</a></li>
+            <li><a href="/testimonials">Client Results</a></li>
+            <li><a href="/competition">Competition Portfolio</a></li>
+            <li><a href="/collaborations">Brand Collaborations</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Get in Touch</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            coach@acfit.com
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Los Angeles, CA
+          </div>
+          <div style="margin-top: 1.5rem;">
+            <a href="/coaching" class="btn btn-primary" style="width: 100%; justify-content: center;">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 <span>AC.Fit</span> — Alex Carter Coaching. All rights reserved.</p>
+        <p>Built for athletes, by an athlete</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/animations.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/pages/home.js"></script>
+</body>
+</html>
